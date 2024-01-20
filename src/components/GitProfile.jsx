@@ -63,7 +63,7 @@ const GitProfile = ({ config }) => {
           avatar: data.avatar_url,
           name: data.name ? data.name : '',
           bio: data.bio ? data.bio : 'Hi there.',
-          location: data.location ? data.location : '',
+          location: data.location ? data.location : 'Canada',
           company: data.company ? data.company : '',
         };
 
